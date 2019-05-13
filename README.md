@@ -1,4 +1,4 @@
-# crud_django_controle_de_despesas, módulo contas
+# crud_django_controle_de_despesas, módulo contas. (Essa aplicação utilizou o DB sqllite3)
 
 # Instalar python 3.7.x (https://www.python.org/downloads/)
 
@@ -12,6 +12,8 @@ cd meuProjeto\venv\scripts
 # Na pasta meuProjeto\venv\scripts, ative o ambiente virtual da aplicação executando o comando: activate
 
 # Volte para a pasta raíz meuProjeto e suba a aplicação executando o comando: python manage.py runserver
+
+# Caso a aplicação na suba, talvez seja porquê o Django não esteja instalado na máquina. Nesse caso, no próprio diretório raíz da aplicação (meuProjeto) rode o comando: pip install django
 
 # Acesse a aplicação via browser utilizando a URL: http://127.0.0.1:8000/home
 
