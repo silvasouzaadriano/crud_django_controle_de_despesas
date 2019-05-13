@@ -1,15 +1,14 @@
 # crud_django_controle_de_despesas
-
 # Instalar python 3.7.x (https://www.python.org/downloads/)
 # Instalar IDE PyCharm versçao Community (https://www.jetbrains.com/pycharm/download/#section=windows) 
-Note que esse item é opcional
+1- Note que esse item é opcional
 
 # Comandos para criar o projeto e instalar o Django no ambiente virtual do projeto
 mkdir meuProjeto
-c:\meuProjeto\python -m venv venv
-c:\meuProjeto\venv\scripts\activate
-c:\meuProjeto\pip install django
-c:\meuProjeto\django-admin startproject <nome do projeto, ie: controle_gastos> .
+1- c:\meuProjeto\python -m venv venv
+2- c:\meuProjeto\venv\scripts\activate
+3- c:\meuProjeto\pip install django
+4- c:\meuProjeto\django-admin startproject <nome do projeto, ie: controle_gastos> .
 
 # Criando uma app
 c:\meuProjeto\python manage.py startapp contas
