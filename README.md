@@ -5,13 +5,13 @@
 
 # Comandos para criar o projeto e instalar o Django no ambiente virtual do projeto
 mkdir meuProjeto
-1- c:\meuProjeto\python -m venv venv
-2- c:\meuProjeto\venv\scripts\activate
-3- c:\meuProjeto\pip install django
-4- c:\meuProjeto\django-admin startproject <nome do projeto, ie: controle_gastos> .
+ 1- c:\meuProjeto\python -m venv venv
+ 2- c:\meuProjeto\venv\scripts\activate
+ 3- c:\meuProjeto\pip install django
+ 4- c:\meuProjeto\django-admin startproject <nome do projeto, ie: controle_gastos> .
 
 # Criando uma app
-c:\meuProjeto\python manage.py startapp contas
+ 1- c:\meuProjeto\python manage.py startapp contas
 Registrar a app criado, no setting.py (tópico INSTALLED_APPS)
  i.e: 
  INSTALLED_APPS = [
@@ -26,7 +26,7 @@ Registrar a app criado, no setting.py (tópico INSTALLED_APPS)
 
 
 # Instalando o bootstrap
-c:\meuProjeto\pip install django-bootstrap-form
+ 1- c:\meuProjeto\pip install django-bootstrap-form
 Registrá-lo no setting.py (tópico INSTALLED_APPS).
  i.e: 
  INSTALLED_APPS = [
@@ -41,25 +41,25 @@ Registrá-lo no setting.py (tópico INSTALLED_APPS).
 ]
 
 # Criando usuário admin da aplicação (superuser)
-Execute Control-C para parar o servidor, depois execute:
+ 1- Execute Control-C para parar o servidor, depois execute:
 c:\meuProjeto\python manage.py createsuperuser
 user=admin
 psw=django01
 
 # Criando o DB sqlite3
-c:\meuProjeto\python manage.py migrate
+1- c:\meuProjeto\python manage.py migrate
 
 # Após criar seus models, execute os comandos abaixo para criar as tabelas no DB. Note que o servidor deve estar fora do ar
-python manage.py makemigrations
+1- python manage.py makemigrations
 python manage.py migrate
 
 # Após criar as tabelas, registrá-las no django admin(admin.py) para que elas possam ficar disponíveis no módulo admin
-i.e:
+1- i.e:
 admin.site.register(Categoria)
 admin.site.register(Transacao)
 
 # Rodando a aplicação (http://127.0.0.1:8000/home)
-c:\meuProjeto\python manage.py runserver
+1- c:\meuProjeto\python manage.py runserver
 
 
 
