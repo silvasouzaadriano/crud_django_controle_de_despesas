@@ -4,11 +4,11 @@
 1- Note que esse item é opcional
 
 # Comandos para criar o projeto e instalar o Django no ambiente virtual do projeto
-mkdir meuProjeto
- 1- c:\meuProjeto\python -m venv venv
- 2- c:\meuProjeto\venv\scripts\activate
- 3- c:\meuProjeto\pip install django
- 4- c:\meuProjeto\django-admin startproject <nome do projeto, ie: controle_gastos> .
+ 1- mkdir meuProjeto
+ 2- c:\meuProjeto\python -m venv venv
+ 3- c:\meuProjeto\venv\scripts\activate
+ 4- c:\meuProjeto\pip install django
+ 5- c:\meuProjeto\django-admin startproject <nome do projeto, ie: controle_gastos> .
 
 # Criando uma app
  1- c:\meuProjeto\python manage.py startapp contas
