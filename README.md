@@ -6,7 +6,7 @@
 
 # Descompacte o arquivo meuProjeto.zip, deixando somente uma pasta chamada meuProjeto
 
-# Via linha de comando (Windows) ou terminal (Max ou Linux), acesse a pasta meuProjeto\venv\scripts. Exemplo em Windows:
+# Via linha de comando (Windows) ou terminal (Mac ou Linux), acesse a pasta meuProjeto\venv\scripts. Exemplo em Windows:
 cd meuProjeto\venv\scripts
 
 # Na pasta meuProjeto\venv\scripts, ative o ambiente virtual da aplicação executando o comando: activate
@@ -17,7 +17,7 @@ cd meuProjeto\venv\scripts
 
 # Para acessar o modo administrativo (nativo) do Django, via browser utilize a URL: http://127.0.0.1:8000/admin. Usuário: admin, senha = django01
 
-# Para para parar a aplicação bast executar o Control- C no prompt onde o servidor foi executado
+# Para parar a aplicação basta executar o Control- C no prompt onde o servidor foi executado
 
 # Para desativar o ambiente virtual da aplicação, na pasta meuProjeto, rode o comando: deactivate
 
