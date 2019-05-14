@@ -14,8 +14,8 @@ cd meuProjeto\venv\scripts
 # Volte para a pasta raíz meuProjeto e suba a aplicação executando o comando: python manage.py runserver
 
 # Caso a aplicação na suba, talvez seja porquê ou Django ou Bootstrap não esteja instalado na máquina. Nesse caso, no próprio diretório raíz da aplicação (meuProjeto) rode os comandos: 
-pip install django
-pip install django-bootstrap-form 
+1) pip install django
+2) pip install django-bootstrap-form 
 
 # Acesse a aplicação via browser utilizando a URL: http://127.0.0.1:8000/home
 
