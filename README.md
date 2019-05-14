@@ -1,4 +1,4 @@
-# crud_django_controle_de_despesas, módulo contas. (Essa aplicação utilizou o DB sqllite3)
+# crud_django_controle_de_despesas, módulo contas. (Essa aplicação utilizou o DB Sqlite3)
 
 # Instalar python 3.7.x (https://www.python.org/downloads/)
 
