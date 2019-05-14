@@ -4,9 +4,12 @@
 
 # Instalar IDE PyCharm versçao Community (https://www.jetbrains.com/pycharm/download/#section=windows). Note que esse item é opcional
 
-# Descompacte o arquivo meuProjeto.zip, deixando somente uma pasta chamada meuProjeto
+# Descompacte o arquivo meuProjeto.zip, no drive C por exemplo, deixando somente uma pasta chamada meuProjeto
 
-# Via linha de comando (Windows) ou terminal (Mac ou Linux), acesse a pasta meuProjeto\venv\scripts. Exemplo em Windows:
+# A partir desse item em diante todos os comandos a serem executados devem ser feitos atráves de linha de comando (Windows) ou terminal (Mac ou Linux)
+
+# Acesse a pasta meuProjeto\venv\scripts. Exemplo em Windows:
+
 1) cd meuProjeto\venv\scripts
 
 # Na pasta meuProjeto\venv\scripts, ative o ambiente virtual da aplicação executando o comando: 
@@ -22,13 +25,21 @@
 
 1) python manage.py runserver
 
-# Com o servidor no ar, acesse a aplicação via browser utilizando a URL: http://127.0.0.1:8000/home
+# Com o servidor no ar, acesse a aplicação via browser utilizando a URL:
 
-# Para acessar o modo administrativo (nativo) do Django, via browser utilize a URL: http://127.0.0.1:8000/admin. Usuário: admin, senha = django01
+1) http://127.0.0.1:8000/home
 
-# Para parar a aplicação basta executar o Control- C no prompt onde o servidor foi executado
+# Para acessar o modo administrativo (nativo) do Django, via browser utilize:
 
-# Para desativar o ambiente virtual da aplicação, na pasta meuProjeto, rode o comando: deactivate
+1) A url http://127.0.0.1:8000/admin. 
+2) Usuário = admin
+3) Senha = django01
+
+# Para parar a aplicação basta executar a combinação de teclas Control- C no prompt onde o servidor foi executado
+
+# Para desativar o ambiente virtual da aplicação, na pasta meuProjeto, rode o comando: 
+
+1) deactivate
 
 
 
