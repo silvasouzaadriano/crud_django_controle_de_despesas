@@ -7,17 +7,22 @@
 # Descompacte o arquivo meuProjeto.zip, deixando somente uma pasta chamada meuProjeto
 
 # Via linha de comando (Windows) ou terminal (Mac ou Linux), acesse a pasta meuProjeto\venv\scripts. Exemplo em Windows:
-cd meuProjeto\venv\scripts
+1) cd meuProjeto\venv\scripts
 
-# Na pasta meuProjeto\venv\scripts, ative o ambiente virtual da aplicação executando o comando: activate
+# Na pasta meuProjeto\venv\scripts, ative o ambiente virtual da aplicação executando o comando: 
 
-# Volte para a pasta raíz meuProjeto e suba a aplicação executando o comando: python manage.py runserver
+1) activate
 
-# Caso a aplicação na suba, talvez seja porquê ou Django ou Bootstrap não esteja instalado na máquina. Nesse caso, no próprio diretório raíz da aplicação (meuProjeto) rode os comandos: 
+# Volte para a pasta raíz meuProjeto e instale o Django e o Bootstrap para o projeto, executando os seguintes comandos:
+
 1) pip install django
 2) pip install django-bootstrap-form 
 
-# Acesse a aplicação via browser utilizando a URL: http://127.0.0.1:8000/home
+# Após a execução com sucesso do passo anterior, ainda na mesma pasta meuProjeto, suba a aplicação executando o comando: 
+
+1) python manage.py runserver
+
+# Com o servidor no ar, acesse a aplicação via browser utilizando a URL: http://127.0.0.1:8000/home
 
 # Para acessar o modo administrativo (nativo) do Django, via browser utilize a URL: http://127.0.0.1:8000/admin. Usuário: admin, senha = django01
 
